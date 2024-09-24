@@ -11,6 +11,9 @@ a {
     text-decoration: none;
     color: currentColor;
 }
+ul,ol{
+    list-style: none;
+}
 /* LAYOUT */
 .conteiner{
     max-width: 1000px;
@@ -23,12 +26,33 @@ a {
 .col-33{
     width: calc(95% / 3);
 }
+/* HEADER STYLE */
+.main-header{
+    background-color: orange;
+    padding: 15px;
+    margin-bottom: 40px;
+    color: white;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.main-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.logo{
+    
+}
 /* MANIN STYLE */
 .card-section{
     gap: 15px;
 }
 .card{
     position: relative;
+    margin-bottom: 40px;
     
 }
 .hearth{
@@ -64,6 +88,7 @@ a {
     background-color: green;
     padding: 5px;
 }
+
 .second-img{
     position: absolute;
     z-index: -1;
@@ -72,6 +97,25 @@ a {
 }
 .card:hover .second-img{
     z-index: 1;
+}
+/* FOOTER */
+.info-footer{
+    background-color: black;
+    color: white;
+}
+.main-footer{
+    justify-content: space-between;
+    align-items: center;
+}
+.info{
+    padding: 10px 0px 50px;
+}
+.cta-info{
+    padding: 5px;
+}
+.name-section{
+    display: block;
+    padding-top: 50px;
 }
 /* DEBUG RULES */
 .debug.main-section{
