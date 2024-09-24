@@ -21,11 +21,15 @@ a {
     flex-wrap: wrap;
 }
 .col-33{
-    width: calc(100% / 3);
+    width: calc(95% / 3);
 }
 /* MANIN STYLE */
+.card-section{
+    gap: 15px;
+}
 .card{
     position: relative;
+    
 }
 .hearth{
     background-color: white;
@@ -34,8 +38,25 @@ a {
     top: 5px;
     right: 0;
 }
+.badge-section{
+    position: absolute;
+    bottom: 90px;
+}
 .red-badge,.green-badge{
     display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+}
+.red-badge{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    margin-right: 10px;
+}
+.green-badge{
+    color: white;
+    background-color: green;
+    padding: 5px;
 }
 /* DEBUG RULES */
 .debug.main-section{
