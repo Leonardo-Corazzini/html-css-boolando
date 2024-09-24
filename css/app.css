@@ -12,3 +12,14 @@ a {
     color: currentColor;
 }
 /* LAYOUT */
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-33{
+    width: calc(100% / 3);
+}
