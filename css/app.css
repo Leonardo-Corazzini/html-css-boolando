@@ -23,6 +23,20 @@ a {
 .col-33{
     width: calc(100% / 3);
 }
+/* MANIN STYLE */
+.card{
+    position: relative;
+}
+.hearth{
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+.red-badge,.green-badge{
+    display: inline-block;
+}
 /* DEBUG RULES */
 .debug.main-section{
     background-color: yellow;
