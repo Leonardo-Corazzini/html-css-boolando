@@ -13,7 +13,7 @@ a {
 }
 /* LAYOUT */
 .conteiner{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .row{
@@ -22,4 +22,13 @@ a {
 }
 .col-33{
     width: calc(100% / 3);
+}
+/* DEBUG RULES */
+.debug.main-section{
+    background-color: yellow;
+}
+.debug .col-33{
+    min-height: 400px;
+    background-color: blue;
+    border: 2px solid black;
 }
