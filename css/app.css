@@ -30,8 +30,11 @@ ul,ol{
 .main-header{
     background-color: orange;
     padding: 15px;
-    margin-bottom: 40px;
+    
     color: white;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
 }
 .navbar{
     justify-content: space-between;
@@ -47,8 +50,11 @@ ul,ol{
     
 }
 /* MANIN STYLE */
+.main-section{
+    padding-top: 100px;
+}
 .card-section{
-    gap: 15px;
+    gap: 18px;
 }
 .card{
     position: relative;
